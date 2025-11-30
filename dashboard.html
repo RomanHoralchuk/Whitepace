@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="assets/css/dashboard.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="dashboard-page" id="page">
+
+<div id="loadingScreen">
+  <div class="loader"></div>
+  <p>Завантаження...</p>
+</div>
+
+<div class="layout">
+
+  <aside class="sidebar">
+    <div class="logo">Whitepace</div>
+
+    <nav class="menu">
+      <a href="#" class="active">Dashboard</a>
+      <a href="#">Projects</a>
+      <a href="#">Tasks</a>
+      <a href="#">Team</a>
+      <a href="#">Settings</a>
+    </nav>
+
+    <nav class="logout">
+      <a href="#">Log Out</a>
+    </nav>
+  </aside>
+
+  <main class="content">
+
+    <header class="topbar">
+      <h1>Dashboard</h1>
+      <div class="actions">
+        <input id="taskSearch" type="text" placeholder="Search…">
+        <button id="refreshBtn">Refresh</button>
+      </div>
+    </header>
+
+    <section>
+      <div id="skeletonMetrics">
+        <div class="skeleton metric-skeleton"></div>
+        <div class="skeleton metric-skeleton"></div>
+        <div class="skeleton metric-skeleton"></div>
+        <div class="skeleton metric-skeleton"></div>
+      </div>
+
+      <div class="metrics" id="metricCards"></div>
+    </section>
+
+    <section class="card">
+      <div class="section-header">
+        <h2>Tasks</h2>
+        <button id="addDemoTask">Add Demo Task</button>
+      </div>
+
+      <div id="skeletonTasks">
+        <div class="skeleton task-skeleton"></div>
+        <div class="skeleton task-skeleton"></div>
+        <div class="skeleton task-skeleton"></div>
+        <div class="skeleton task-skeleton"></div>
+      </div>
+
+      <ul id="taskList" class="task-list"></ul>
+    </section>
+
+  </main>
+
+</div>
+
+<script src="assets/js/dashboard.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,206 @@
+/* =========================================== */
+/* Спеціальні стилі для сторінки Безпека (security.css) */
+/* =========================================== */
+
+.security-page-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+}
+
+/* Hero Section */
+.security-hero {
+    background-color: #450693; /* Темний фіолетовий, як у шапці */
+    color: white;
+    padding: 80px 40px;
+    margin-bottom: 40px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.security-hero h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 1.2;
+}
+
+.security-hero p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+
+/* Загальні стилі секцій */
+.security-section {
+    padding: 60px 0;
+}
+
+.security-section.dark-bg {
+    background-color: #f7f7f7;
+    margin: 40px -20px; /* Розтягнути на всю ширину контейнера */
+    padding: 60px 20px;
+}
+
+.section-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #1e293b;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* Картки функцій безпеки */
+.security-features {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.feature-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 30px;
+    flex: 1;
+    max-width: 350px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.feature-card h3 {
+    color: #450693;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.feature-card p {
+    color: #64748b;
+    line-height: 1.7;
+    font-size: 1rem;
+}
+
+/* Блоки контенту в темній секції */
+.content-block {
+    background-color: #fff;
+    border-left: 5px solid #8C00FF; /* Акцентний колір */
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.content-block h3 {
+    font-size: 1.3rem;
+    color: #1e293b;
+    margin-bottom: 8px;
+}
+
+.content-block p {
+    color: #475569;
+}
+
+/* Відповідність стандартам */
+.compliance-info {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.compliance-info p {
+    font-size: 1.1rem;
+    color: #475569;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.compliance-info ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.compliance-info li {
+    font-size: 1.1rem;
+    color: #1e293b;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+}
+
+.compliance-info li i {
+    color: #10B981; /* Зелений колір успіху */
+    margin-right: 10px;
+    font-size: 1.3rem;
+}
+
+/* CTA Section */
+.security-cta {
+    background-color: #8C00FF; /* Акцентний колір */
+    color: white;
+    padding: 50px 40px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 40px 0;
+}
+
+.security-cta h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.security-cta p {
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+/* Стиль кнопки CTA (якщо вона не успадкована з style.css) */
+.security-cta .cta-btn.demo {
+    background-color: white;
+    color: #8C00FF;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.security-cta .cta-btn.demo:hover {
+    background-color: #f0f0f0;
+}
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .security-hero h1 {
+        font-size: 2.2rem;
+    }
+
+    .security-hero p {
+        font-size: 1rem;
+    }
+
+    .security-features {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .feature-card {
+        max-width: 100%;
+    }
+
+    .section-title {
+        font-size: 1.8rem;
+    }
+}

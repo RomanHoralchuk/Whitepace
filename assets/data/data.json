@@ -1,0 +1,146 @@
+{
+  "metrics": [
+    { "id": "m1", "title": "Активні проєкти", "value": 12 },
+    { "id": "m2", "title": "Відкриті завдання", "value": 87 },
+    { "id": "m3", "title": "Завершено сьогодні", "value": 14 },
+    { "id": "m4", "title": "Учасників команди", "value": 18 },
+    { "id": "m5", "title": "Невідкладні завдання", "value": 9 },
+    { "id": "m6", "title": "Заплановані зустрічі", "value": 4 },
+    { "id": "m7", "title": "Прогрес компанії (%)", "value": 76 }
+  ],
+
+  "projects": [
+    { "id": "p1", "name": "Розробка мобільного застосунку", "owner": "Марія Коваленко", "progress": 64 },
+    { "id": "p2", "name": "CRM-система для продажів", "owner": "Ігор Сич", "progress": 82 },
+    { "id": "p3", "name": "Ребрендинг компанії", "owner": "Юлія Яремчук", "progress": 41 },
+    { "id": "p4", "name": "Модуль аналітики", "owner": "Андрій Романенко", "progress": 57 },
+    { "id": "p5", "name": "Мережевий моніторинг", "owner": "Олена Вовк", "progress": 73 },
+    { "id": "p6", "name": "Сайт для партнерів", "owner": "Владислав Діденко", "progress": 29 },
+    { "id": "p7", "name": "AI-чатбот для підтримки", "owner": "Катерина Гордій", "progress": 33 },
+    { "id": "p8", "name": "HR-кабінет", "owner": "Олександр Бойко", "progress": 96 },
+    { "id": "p9", "name": "Інтеграція платіжної системи", "owner": "Ірина Білик", "progress": 47 }
+  ],
+
+  "team": [
+    { "name": "Марія Коваленко", "role": "Frontend Developer" },
+    { "name": "Ігор Сич", "role": "Backend Developer" },
+    { "name": "Юлія Яремчук", "role": "UX/UI Designer" },
+    { "name": "Андрій Романенко", "role": "DevOps Engineer" },
+    { "name": "Олена Вовк", "role": "Network Engineer" },
+    { "name": "Владислав Діденко", "role": "Project Manager" },
+    { "name": "Катерина Гордій", "role": "AI/ML Specialist" },
+    { "name": "Олександр Бойко", "role": "QA Engineer" },
+    { "name": "Ірина Білик", "role": "Business Analyst" },
+    { "name": "Тарас Петренко", "role": "Backend Developer" },
+    { "name": "Світлана Гринюк", "role": "HR Manager" },
+    { "name": "Дмитро Степаненко", "role": "Data Engineer" },
+    { "name": "Анна Король", "role": "Product Owner" },
+    { "name": "Сергій Герасимчук", "role": "Security Engineer" },
+    { "name": "Назарій Чалий", "role": "Fullstack Developer" },
+    { "name": "Оксана Мельник", "role": "QA Automation" },
+    { "name": "Роман Луцик", "role": "Support Specialist" },
+    { "name": "Аліна Сташко", "role": "PR Manager" }
+  ],
+
+  "tasks": [
+    {
+      "id": "t1",
+      "title": "Перевірити помилки авторизації",
+      "status": "In Progress",
+      "priority": "High",
+      "project": "Розробка мобільного застосунку",
+      "assignedTo": "Марія Коваленко",
+      "dueDate": "2025-12-05",
+      "progress": 40,
+      "description": "Дослідити причину нестабільного логіну та виправити помилку 403."
+    },
+    {
+      "id": "t2",
+      "title": "Створити прототип головної сторінки",
+      "status": "Pending",
+      "priority": "Medium",
+      "project": "Ребрендинг компанії",
+      "assignedTo": "Юлія Яремчук",
+      "dueDate": "2025-12-10",
+      "progress": 15,
+      "description": "Створити Figma-прототип оновленої головної сторінки."
+    },
+    {
+      "id": "t3",
+      "title": "Написати тести для модуля API",
+      "status": "In Progress",
+      "priority": "High",
+      "project": "CRM-система для продажів",
+      "assignedTo": "Ігор Сич",
+      "dueDate": "2025-12-03",
+      "progress": 55,
+      "description": "Модуль API потребує розширеного тест-кейсу з покриттям 80%+."
+    },
+    {
+      "id": "t4",
+      "title": "Оптимізувати базу даних",
+      "status": "Pending",
+      "priority": "High",
+      "project": "Модуль аналітики",
+      "assignedTo": "Дмитро Степаненко",
+      "dueDate": "2025-12-14",
+      "progress": 0,
+      "description": "Провести аудит SQL-запитів та зменшити час відповіді до <200мс."
+    },
+    {
+      "id": "t5",
+      "title": "Додати сповіщення для HR-кабінету",
+      "status": "Completed",
+      "priority": "Low",
+      "project": "HR-кабінет",
+      "assignedTo": "Олександр Бойко",
+      "dueDate": "2025-11-28",
+      "progress": 100,
+      "description": "Реалізовано push-сповіщення про нові заявки на вакансії."
+    },
+    {
+      "id": "t6",
+      "title": "Підготувати презентацію для партнерів",
+      "status": "Pending",
+      "priority": "Medium",
+      "project": "Сайт для партнерів",
+      "assignedTo": "Аліна Сташко",
+      "dueDate": "2025-12-07",
+      "progress": 10,
+      "description": "Зібрати статистику за 2024-2025 та створити слайди."
+    },
+    {
+      "id": "t7",
+      "title": "Виправити помилки в модулі безпеки",
+      "status": "In Progress",
+      "priority": "High",
+      "project": "Мережевий моніторинг",
+      "assignedTo": "Сергій Герасимчук",
+      "dueDate": "2025-12-02",
+      "progress": 32,
+      "description": "Виявлено 12 нових уразливостей — частину вже закрито."
+    },
+    {
+      "id": "t8",
+      "title": "Додати підтримку кількох мов",
+      "status": "Pending",
+      "priority": "Medium",
+      "project": "AI-чатбот для підтримки",
+      "assignedTo": "Катерина Гордій",
+      "dueDate": "2025-12-16",
+      "progress": 5,
+      "description": "Реалізувати EN/UA версії для MVP."
+    },
+    {
+      "id": "t9",
+      "title": "Перевірити інтеграцію з банківським API",
+      "status": "Pending",
+      "priority": "High",
+      "project": "Інтеграція платіжної системи",
+      "assignedTo": "Тарас Петренко",
+      "dueDate": "2025-12-12",
+      "progress": 0,
+      "description": "Протестувати sandbox та реальні транзакції."
+    }
+  ]
+}

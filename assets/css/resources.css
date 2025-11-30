@@ -1,0 +1,70 @@
+.resource-cards-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px 80px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.resource-card {
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    padding: 30px;
+    width: 100%;
+    max-width: 350px;
+    text-align: left;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.resource-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.resource-card h3 {
+    color: #450693;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.resource-card p {
+    color: #6c757d;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+.resource-card .card-link {
+    color: #8C00FF;
+    text-decoration: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.resource-card .card-link:hover {
+    text-decoration: underline;
+}
+
+.whitepace-section {
+    color: #450693;
+    padding: 0;
+}
+
+.resources {
+    color: white;
+}
+
+.title {
+    padding: 3% 0;
+}
+
+@media (max-width: 768px) {
+    .resource-cards-container {
+        padding: 40px 15px 60px;
+        gap: 20px;
+    }
+}

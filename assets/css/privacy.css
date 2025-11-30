@@ -1,0 +1,33 @@
+.legal-container {
+    max-width: 900px; /* Обмежує ширину тексту */
+    margin: 0 auto; /* Центрує контейнер */
+    padding: 60px 20px; /* Відступи зверху/знизу та з боків */
+    line-height: 1.7;
+    color: #212529; /* Ваш основний колір тексту з style.css */
+}
+.legal-container h1 {
+    font-family: "Inter", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.legal-container h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 15px;
+}
+.legal-container p, .legal-container li {
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+.legal-container ul {
+    list-style: disc;
+    padding-left: 30px;
+}
+.legal-container a {
+    color: #8C00FF; /* Ваш фірмовий колір */
+    text-decoration: underline;
+}

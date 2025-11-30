@@ -1,0 +1,103 @@
+body.page {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background: #450693;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    line-height: 1.6;
+    margin: 0;
+    text-align: center;
+}
+
+.page .error-container {
+    width: 100%;
+    max-width: 500px;
+}
+
+.page .error-card {
+    background: #8C00FF;
+    border-radius: 20px;
+    padding: 50px 32px 40px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    color: white;
+}
+
+.page .logo-404 {
+    width: 150px;
+    margin-bottom: 30px;
+}
+
+.page .error-header {
+    margin-bottom: 30px;
+}
+
+.page .error-code {
+    font-size: 5rem;
+    font-weight: 900;
+    margin: 0;
+    line-height: 1;
+    color: #FFD700;
+}
+
+.page .error-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.page .error-message {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.85);
+    margin-bottom: 40px;
+}
+
+.page .error-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.page .cta-btn {
+    display: inline-block;
+    padding: 12px 25px;
+    border-radius: 8px;
+    font-weight: 600;
+    text-align: center;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+}
+
+.page .home-btn {
+    background-color: #ffffff;
+    color: #450693;
+}
+
+.page .home-btn:hover {
+    background-color: #f0f0f0;
+}
+
+.page .contact-btn {
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.page .contact-btn:hover {
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+@media (max-width: 480px) {
+    .error-code {
+        font-size: 4rem;
+    }
+
+    .error-title {
+        font-size: 1.5rem;
+    }
+}

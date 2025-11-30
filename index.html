@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Whitepace - програмне забезпечення для управління проєктами та командами. Плануйте, аналізуйте та співпрацюйте над щоденними завданнями легко та ефективно.">
+  <title>Whitepace</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/style-modal.css">
+
+
+  <link rel="icon" href="assets/img/MainLogo.svg">
+  <link
+          href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+  <style></style>
+</head>
+
+<body>
+
+<div id="splashScreen" class="splash-screen">
+  <div class="splash-content">
+    <img src="assets/img/Logo.svg" alt="Whitepace Logo" class="splash-logo">
+    <div class="splash-spinner"></div>
+  </div>
+</div>
+
+<nav class="navbar-set">
+  <div class="navbar">
+    <a href="index.html" class="logo">
+      <img src="assets/img/Logo.svg" alt="Логотип Whitepace">
+    </a>
+
+    <button class="menu-toggle" id="menuToggle">
+      ☰
+    </button>
+
+    <div class="navbar-flex" id="navMenu">
+      <ul class="nav-links">
+        <li class="dropdown">
+          <button onclick="window.location.href='products.html'" class="dropbtn products">Продукти</button>
+        </li>
+        <li class="dropdown">
+          <button onclick="window.location.href='solutions.html'" class="dropbtn">Рішення</button>
+        </li>
+        <li class="dropdown">
+          <button onclick="window.location.href='resources.html'" class="dropbtn">Ресурси</button>
+        </li>
+        <li class="dropdown">
+          <button onclick="window.location.href='pricing.html'" class="dropbtn">Ціни</button>
+        </li>
+      </ul>
+
+      <div class="nav-buttons">
+        <button onclick="window.location.href='login.html'" class="login-btn">Увійти</button>
+        <button onclick="window.location.href='pricing.html'" class="try-btn demo">Спробувати Whitepace<i class="solid arrow-right"></i></button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+
+<section class="hero-section-flex animate-left">
+  <div class="hero-section">
+    <div class="hero-flex">
+      <div class="hero-content">
+        <h1>Зробіть Більше з <span>whitepace</span></h1>
+        <p>Програмне забезпечення для управління проєктами, яке дозволяє вашим командам співпрацювати, планувати, аналізувати та керувати щоденними завданнями</p>
+        <a href="pricing.html" class="cta-btnn demo">Спробувати Whitepace безкоштовно<i class="solid arrow-right"></i></a>
+      </div>
+      <div class="hero-content-img">
+        <img src="assets/img/Image-container.svg" alt="">
+      </div>
+    </div>
+  </div>
+</section>
+<div class="set-bg-img animate-right">
+  <div class="section-wrapper-flex">
+    <div class="section-wrapper">
+      <div class="content-left">
+        <div>
+          <p class="set-size">Управління <span class="highlighted-worded">Проєктами</span> </p>
+        </div>
+        <p>Підтримуються зображення, відео, PDF-файли та аудіофайли. Створюйте математичні вирази та діаграми безпосередньо в застосунку. Робіть фотографії за допомогою мобільного застосунку та зберігайте їх у нотатці.</p>
+        <button onclick="window.location.href='pricing.html'" class="cta-btne demo">Почати<i class="solid arrow-right"></i></button>
+      </div>
+      <div class="set-img-width">
+        <img src="assets/img/Image-container.svg" alt="">
+      </div>
+    </div>
+  </div>
+  <div class="set-img">
+    <img src="assets/img/BACKGROUND.svg" alt="">
+  </div>
+</div>
+
+
+<div class="work-section-flex animate-on-scroll">
+  <div class="work-section">
+    <div class="set-img-wd">
+      <img src="assets/img/Work-Together-Image.svg" alt="">
+    </div>
+    <div class="content">
+      <p class="set-work">Працюйте <span class="highlight">разом</span></p>
+      <p>
+        З Whitepace діліться своїми нотатками з колегами та співпрацюйте над ними. Ви також можете опублікувати нотатку в інтернеті та поділитися URL-адресою з іншими.
+      </p>
+      <button onclick="window.location.href='pricing.html'" class="cta-btnd demo">Спробувати зараз<i class="solid arrow-right"></i></button>
+    </div>
+  </div>
+</div>
+
+<div class="feature-section-flex animate-left">
+  <div class="feature-section">
+    <div class="text-box">
+      <p class="set-Extension">Використовуйте як <span class="highlighted-word">Розширення</span></p>
+      <p class="description">
+        Використовуйте розширення веб-кліпер, доступне для Chrome і Firefox, щоб зберігати веб-сторінки або робити знімки екрана як нотатки.
+      </p>
+      <button onclick="window.location.href='pricing.html'" class="cta-button demo">Поїхали<i class="solid arrow-right"></i></button>
+    </div>
+    <div class="visual-box">
+      <img src="assets/img/Image-container.svg" alt="">
+    </div>
+  </div>
+</div>
+
+<div class="custom-section-flex animate-right">
+  <div class="custom-section">
+    <div class="custom-image">
+      <img src="assets/img/Image-container.svg" alt="">
+    </div>
+
+    <div class="custom-content">
+      <div>
+        <p class="set-Customise">Налаштуйте його під <span class="highlight-underline">ваші потреби</span></p>
+      </div>
+      <p>
+        Налаштуйте застосунок за допомогою плагінів, власних тем і кількох текстових редакторів (Rich Text або Markdown). Або створіть власні скрипти та плагіни за допомогою Extension API.
+      </p>
+      <button onclick="window.location.href='pricing.html'" class="custom-btn demo">Поїхали<i class="solid arrow-right"></i></button>
+    </div>
+  </div>
+</div>
+
+<section class="pricing-section-flex animate-on-scroll">
+  <div class="pricing-section">
+    <p class="section-title">Оберіть <span class="highlight">Свій План</span></p>
+    <div class="section-subtitle">
+      <p>
+        Незалежно від того, чи хочете ви організувати роботу, стежити за особистим життям або підвищити продуктивність на робочому місці, Evernote має потрібний вам план.
+      </p>
+    </div>
+
+    <div class="pricing-cards animate-left">
+      <div class="card">
+        <h3>Безкоштовно</h3>
+        <p class="price">$0</p>
+        <p class="desc">Фіксуйте ідеї та швидко їх знаходьте</p>
+        <ul class="features">
+          <li>Синхронізація необмеженої кількості пристроїв</li>
+          <li>10 ГБ щомісячних завантажень</li>
+          <li>Максимальний розмір нотатки 200 МБ</li>
+          <li>Налаштування домашньої інформаційної панелі та доступ до додаткових віджетів</li>
+          <li>Підключення основного облікового запису Google Календаря</li>
+          <li>Додавання термінів, нагадувань і сповіщень до ваших завдань</li>
+        </ul>
+        <button onclick="window.location.href='login.html'" class="btn-outline">Почати</button>
+      </div>
+
+      <div class="card animate-on-scroll">
+        <h3>Особистий</h3>
+        <p class="price">$11.99</p>
+        <p class="desc">Слідкуйте за домашніми та сімейними справами</p>
+        <ul class="features">
+          <li>Синхронізація необмеженої кількості пристроїв</li>
+          <li>10 ГБ щомісячних завантажень</li>
+          <li>Максимальний розмір нотатки 200 МБ</li>
+          <li>Налаштування домашньої інформаційної панелі та доступ до додаткових віджетів</li>
+          <li>Підключення основного облікового запису Google Календаря</li>
+          <li>Додавання термінів, нагадувань і сповіщень до ваших завдань</li>
+        </ul>
+        <button onclick="window.location.href='login.html'" class="btn-outline">Почати</button>
+      </div>
+      <div class="card animate-on-scroll">
+        <h3>Організація</h3>
+        <p class="price">$49.99</p>
+        <p class="desc">Фіксуйте ідеї та швидко їх знаходьте</p>
+        <ul class="features">
+          <li>Синхронізація необмеженої кількості пристроїв</li>
+          <li>10 ГБ щомісячних завантажень</li>
+          <li>Максимальний розмір нотатки 200 МБ</li>
+          <li>Налаштування домашньої інформаційної панелі та доступ до додаткових віджетів</li>
+          <li>Підключення основного облікового запису Google Календаря</li>
+          <li>Додавання термінів, нагадувань і сповіщень до ваших завдань</li>
+        </ul>
+        <button onclick="window.location.href='login.html'" class="btn-outline">Почати</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="set-imges animate-left">
+  <div class="intro-section">
+    <div class="intro-content">
+      <div class="overlay-1"></div>
+      <p class="set-everywhere">Ваша робота, <span class="emphasis">де б ви не були</span></p>
+      <p>
+        Отримуйте доступ до своїх нотаток з комп'ютера, телефону чи планшета, синхронізуючись із різними сервісами, включаючи Whitepace, Dropbox та OneDrive. Застосунок доступний на Windows, macOS, Linux, Android та iOS. Також доступний термінальний застосунок!
+      </p>
+      <div class="set-atage">
+        <a href="pricing.html" class="button demo">Спробувати<i class="solid arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="data-section-flex animate-right">
+  <div class="data-section">
+    <div class="data-content">
+      <p class="set-data">100% <span class="highlight">ваші дані</span></p>
+      <p>
+        Застосунок є відкритим вихідним кодом, а ваші нотатки зберігаються у відкритому форматі, тому ви завжди матимете до них доступ. Використовує наскрізне шифрування (E2EE) для захисту ваших нотаток і гарантує, що ніхто, крім вас, не зможе отримати до них доступ.
+      </p>
+      <button onclick="window.location.href='security.html'" class="btn-blue demo">Читати<i class="solid arrow-right"></i></button>
+    </div>
+
+    <div class="data-image">
+      <img src="assets/img/your-data.svg" alt="Графіка безпеки даних">
+    </div>
+  </div>
+</div>
+
+<div class="sponsors-section-flex animate-left">
+  <div class="sponsors-section">
+    <p class="sponsors-title">Наші <span class="highlight">спонсори</span></p>
+    <div class="sponsor-logos">
+      <div class="sponsor-imgess">
+        <img src="assets/img/Apple.svg" class="imges-sete" alt="Apple">
+      </div>
+      <div class="sponsor-imges">
+        <img src="assets/img/Microsoft.svg" class="imges-set" alt="Microsoft">
+      </div>
+      <div class="sponsor-imges">
+        <img src="assets/img/Slack.svg" class="imges-set" alt="Slack">
+      </div>
+      <div class="sponsor-imges">
+        <img src="assets/img/Google.svg" class="imges-set" alt="Google">
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="integration-section animate-on-scroll">
+  <div class="integration-content">
+    <div class="integration-graphics">
+      <img src="assets/img/Apps.svg" alt="">
+    </div>
+
+    <div class="integration-text">
+      <p class="set-whitepace">Працюйте з улюбленими застосунками за допомогою <span>whitepace</span></p>
+      <p>
+        Whitepace співпрацює з вашим улюбленим програмним забезпеченням. Інтегруйтеся з більш ніж 1000+ застосунками за допомогою Zapier, щоб мати всі інструменти, необхідні для успіху вашого проєкту.
+      </p>
+      <a href="products.html" class="btn demo">Читати<i class="solid arrow-right"></i></a>
+    </div>
+  </div>
+</div>
+<section class="client-testimonials animate-right">
+  <div>
+    <h2>Що <span class="highlight-text">Кажуть</span> Наші Клієнти</h2>
+    <section class="wt-testimonials-container-flex">
+      <div class="wt-testimonials-container">
+        <div class="wt-testimonials-carousel">
+        </div>
+        <div class="wt-dots"></div>
+      </div>
+    </section>
+  </div>
+</section>
+
+
+
+<div class="whitepace-section-flex animate-on-scroll">
+  <div class="whitepace-section">
+    <div class="whitepace-heading">Спробуйте Whitepace сьогодні</div>
+    <p class="whitepace-subtext">Почніть безкоштовно. Додайте всю свою команду в міру зростання ваших потреб.</p>
+    <a href="pricing.html" class="whitepace-cta-btn demo">Спробувати безкоштовно<i class="solid arrow-right"></i></a>
+    <p class="whitepace-sales-note">У великій команді? Зв'яжіться з відділом продажів</p>
+    <div class="whitepace-platform-icons">
+      <img src="assets/img/App-icon.svg" alt="Іконка застосунку">
+    </div>
+  </div>
+</div>
+
+<footer class="footer-flexe animate-on-scroll">
+  <div class="footer">
+    <div class="footer-main">
+      <div class="footer-flex">
+        <div class="footer-brand">
+          <div class="footer-set-img">
+            <img src="assets/img/Logo-Icon.svg" alt="Логотип Whitepace" class="footer-logo">
+            <h2>whitepace</h2>
+          </div>
+          <p>Whitepace був створений для нових способів нашого життя та роботи. Ми створюємо кращий робочий простір у всьому світі
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <div class="footer-column">
+            <h4>Продукт</h4>
+            <ul>
+              <li><a href="index.html">Огляд</a></li>
+              <li><a href="pricing.html">Ціни</a></li>
+              <li><a href="customer-stories.html">Історії клієнтів</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>Ресурси</h4>
+            <ul>
+              <li><a href="https://www.instagram.com/">Блог</a></li>
+              <li><a href="https://www.youtube.com/?gl=DE&hl=de">Посібники та навчальні матеріали</a></li>
+              <li><a href="#">Довідковий центр</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>Компанія</h4>
+            <ul>
+              <li><a href="about.html">Про нас</a></li>
+              <li><a href="#">Кар'єра</a></li>
+              <li><a href="#">Медіа-кіт</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-cta">
+        <h4>Спробуйте Сьогодні</h4>
+        <p>Почніть безкоштовно. Додайте всю свою команду в міру зростання ваших потреб.</p>
+        <button onclick="window.location.href='pricing.html'" class="cta-btn demo">Почати сьогодні<i class="solid arrow-right"></i></button>
+      </div>
+    </div>
+    <div id="footer-bordered">
+      <p id="footer-border"></p>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-meta">
+        <div class="set-select-img">
+          <img src="assets/img/Icon.svg" alt="">
+          <div class="navset-flex">
+            <select class="nav-selectd" name="nav1">
+              <option selected>
+                Українська</option>
+              <option>English</option>
+            </select>
+            <div class="set-widths">
+              <img src="assets/img/Vector.svg" alt="">
+            </div>
+          </div>
+        </div>
+        <a href="terms-of-use.html">Умови та конфіденційність</a>
+        <a href="security.html">Безпека</a>
+        <a href="#">Статус</a>
+        <span>©2025 Whitepace LLC.</span>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/" target="_blank">
+          <img src="assets/img/Facebook.svg" alt="facebook">
+        </a>
+        <a href="https://x.com/" target="_blank">
+          <img src="assets/img/X.svg" alt="X">
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank">
+          <img src="assets/img/Linkedin.svg" alt="linkedin">
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<div id="consentModal" class="modal-overlay">
+  <div class="modal-content">
+    <h3>🍪 Ми цінуємо вашу конфіденційність</h3>
+    <p>Для забезпечення найкращої взаємодії з Whitepace ми використовуємо файли cookie та обробляємо персональні дані відповідно до нашої <a href="terms-of-use.html" target="_blank" class="modal-link">Політики конфіденційності</a>. Продовжуючи користуватися сайтом, ви підтверджуєте свою згоду.</p>
+
+    <div class="modal-actions">
+      <button id="acceptConsent" class="modal-btn-accept">Прийняти та продовжити</button>
+      <button id="declineConsent" class="modal-btn-decline">Дізнатися більше</button>
+    </div>
+
+  </div>
+</div>
+
+<script src="assets/js/script.js"></script>
+<script src="assets/js/script-modal.js"></script>
+
+</body>
+
+</html>

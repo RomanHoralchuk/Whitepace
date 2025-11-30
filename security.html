@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Whitepace - Безпека</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/security.css">
+
+  <link rel="icon" href="assets/img/MainLogo.svg">
+  <link
+          href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+          rel="stylesheet">
+  <style></style>
+</head>
+
+<body>
+
+
+<nav class="navbar-set">
+  <div class="navbar">
+    <a href="index.html" class="logo">
+      <img src="assets/img/Logo.svg" alt="Логотип Whitepace">
+    </a>
+
+    <button class="menu-toggle" id="menuToggle">
+      ☰
+    </button>
+
+    <div class="navbar-flex" id="navMenu">
+      <ul class="nav-links">
+        <li class="dropdown">
+          <button onclick="window.location.href='products.html'" class="dropbtn products">Продукти</button>
+        </li>
+        <li class="dropdown">
+          <button onclick="window.location.href='solutions.html'" class="dropbtn">Рішення</button>
+        </li>
+        <li class="dropdown">
+          <button onclick="window.location.href='resources.html'" class="dropbtn">Ресурси</button>
+        </li>
+        <li class="dropdown">
+          <button onclick="window.location.href='pricing.html'" class="dropbtn">Ціни</button>
+        </li>
+      </ul>
+
+      <div class="nav-buttons">
+        <button onclick="window.location.href='login.html'" class="login-btn">Увійти</button>
+        <button onclick="window.location.href='pricing.html'" class="try-btn demo">Спробувати Whitepace<i class="solid arrow-right"></i></button>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main class="security-page-content">
+  <section class="security-hero">
+    <h1>Безпека та конфіденційність у Whitepace</h1>
+    <p>Ваші дані та проєкти - наш головний пріоритет. Ми докладаємо максимум зусиль, щоб захистити інформацію вашої команди на кожному рівні.</p>
+
+  </section>
+
+  <section class="security-section">
+    <h2 class="section-title">🛡️ Наш підхід до безпеки</h2>
+
+    <div class="security-features">
+      <div class="feature-card">
+        <h3>Безпека інфраструктури</h3>
+        <p>Наші сервери розміщені у високозахищених дата-центрах. Ми використовуємо сучасні брандмауери та системи виявлення вторгнень для захисту мережі.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Шифрування даних</h3>
+        <p>Всі дані, що передаються між вами та Whitepace, шифруються за допомогою **TLS 1.2+**. Ваші збережені дані шифруються за допомогою **AES-256**.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Контроль доступу</h3>
+        <p>Ми підтримуємо **двофакторну автентифікацію (2FA)**, надійні політики паролів та деталізовані дозволи на рівні проєкту та користувача.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="security-section dark-bg">
+    <h2 class="section-title">🔐 Керування доступом та автентифікація</h2>
+
+    <div class="content-block">
+      <h3>Двофакторна автентифікація (2FA)</h3>
+      <p>Додайте додатковий рівень захисту до свого облікового запису. Навіть якщо ваш пароль буде скомпрометовано, без вашого другого фактора (наприклад, коду з додатку) доступ буде неможливим.</p>
+    </div>
+    <div class="content-block">
+      <h3>Єдиний вхід (Single Sign-On, SSO)</h3>
+      <p>Для корпоративних клієнтів ми пропонуємо інтеграцію з провайдерами ідентифікації через SAML або OAuth 2.0, спрощуючи керування обліковими записами.</p>
+    </div>
+  </section>
+
+  <section class="security-section">
+    <h2 class="section-title">✅ Відповідність стандартам та аудит</h2>
+
+    <div class="compliance-info">
+      <p>Whitepace регулярно проходить незалежні аудити безпеки та дотримується провідних галузевих стандартів для забезпечення надійності наших послуг.</p>
+      <ul>
+        <li><i class="solid check-circle"></i> Відповідність **GDPR** для захисту даних користувачів з ЄС.</li>
+        <li><i class="solid check-circle"></i> Регулярне тестування на проникнення (Penetration Testing).</li>
+        <li><i class="solid check-circle"></i> Політика відповідального розкриття інформації про вразливості.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="security-cta">
+    <h2>Маєте запитання щодо безпеки?</h2>
+    <p>Наша команда готова надати детальну інформацію про наші протоколи безпеки.</p>
+    <a href="#" class="cta-btn demo">Зв'язатися з нами</a>
+  </section>
+
+</main>
+<footer class="footer-flexe">
+  <div class="footer">
+    <div class="footer-main">
+      <div class="footer-flex">
+        <div class="footer-brand">
+          <div class="footer-set-img">
+            <img src="assets/img/Logo-Icon.svg" alt="Логотип Whitepace" class="footer-logo">
+            <h2>whitepace</h2>
+          </div>
+          <p>Whitepace був створений для нових способів нашого життя та роботи. Ми створюємо кращий робочий простір у всьому світі
+          </p>
+        </div>
+
+        <div class="footer-links">
+          <div class="footer-column">
+            <h4>Продукт</h4>
+            <ul>
+              <li><a href="index.html">Огляд</a></li>
+              <li><a href="pricing.html">Ціни</a></li>
+              <li><a href="customer-stories.html">Історії клієнтів</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>Ресурси</h4>
+            <ul>
+              <li><a href="https://www.instagram.com/">Блог</a></li>
+              <li><a href="https://www.youtube.com/?gl=DE&hl=de">Посібники та навчальні матеріали</a></li>
+              <li><a href="#">Довідковий центр</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-column">
+            <h4>Компанія</h4>
+            <ul>
+              <li><a href="about.html">Про нас</a></li>
+              <li><a href="#">Кар'єра</a></li>
+              <li><a href="#">Медіа-кіт</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer-cta">
+        <h4>Спробуйте Сьогодні</h4>
+        <p>Почніть безкоштовно. Додайте всю свою команду в міру зростання ваших потреб.</p>
+        <button onclick="window.location.href='pricing.html'" class="cta-btn demo">Почати сьогодні<i class="solid arrow-right"></i></button>
+      </div>
+    </div>
+    <div id="footer-bordered">
+      <p id="footer-border"></p>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-meta">
+        <div class="set-select-img">
+          <img src="assets/img/Icon.svg" alt="">
+          <div class="navset-flex">
+            <select class="nav-selectd" name="nav1">
+              <option selected>
+                Українська</option>
+              <option>English</option>
+            </select>
+            <div class="set-widths">
+              <img src="assets/img/Vector.svg" alt="">
+            </div>
+          </div>
+        </div>
+        <a href="terms-of-use.html">Умови та конфіденційність</a>
+        <a href="security.html">Безпека</a>
+        <a href="#">Статус</a>
+        <span>©2025 Whitepace LLC.</span>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.facebook.com/" target="_blank">
+          <img src="assets/img/Facebook.svg" alt="facebook">
+        </a>
+        <a href="https://x.com/" target="_blank">
+          <img src="assets/img/X.svg" alt="X">
+        </a>
+        <a href="https://www.linkedin.com/" target="_blank">
+          <img src="assets/img/Linkedin.svg" alt="linkedin">
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+
+</html>
